@@ -5,6 +5,11 @@ class fibonacci:
     memory_it = {0: 1, 1: 1}
 
     def fibonacci_rec(n):
+        # Use this if- statement for making recursion much faster
+        # if n in recur_fibo.memory:
+        #     return recur_fibo.memory[n]
+
+        # Use this if statement for traditional recursion
         if n <= 1:
             return n
         else:
