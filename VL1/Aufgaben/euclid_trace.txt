@@ -1,0 +1,8 @@
+STEP		VALUE 1		VALUE 2
+0			 1632		  112
+1			  112		   64
+2			   64		   48
+3			   48		   16
+
+Der groesste, gemeinsame Teiler ist 16
+
