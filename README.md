@@ -7,7 +7,12 @@ Zu jedem Skript gibt es ein "Aufgaben.md" Dokument, welches zu jeder Datei/ Skri
 ## Zusätzliche Informationen
 - Vorlesung 1:
     - In Aufgabe 3 werden Dekoratoren verwendet. Da das eine Python- spezifische Technik ist, wird diese in einer Dokumentationen.md Datei erklärt.
+    
     - In Aufgabe 4 werden in der rekursiven Funktion zwei Abbruchkriterien (If- Bedingungen) angeboten. Die unkonventionellere ist auskommentiert wurden. Diese entspricht nicht der traditionellen Rekursion, bringt aber eine erheblich verbesserte Laufzeit.
     
       Zudem wurde Aufgabe Aufgabe 4 zusätzlich in der Programmiersprache Kotlin implementiert, da es dort eine bestimmte Technik zur Optimierung der Rekursionslaufzeit gibt.
+    
+- Vorlesung 2:
 
+    - In Aufgabe 3 werden alle Numerischen Rechenschritte automatisch ausgeführt. Einzig der ungefähre Schnittpunkt musste aus den automatisch generierten Diagrammen abgeschätzt werden und in das Programm eingetragen werden (siehe die Aufrufe der Funktion fsolve)
+    - 
