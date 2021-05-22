@@ -21,7 +21,7 @@ def find_duplicates(set, sort=true):
 
 
 if __name__ == "__main__":
-	# Generater some random numbers with gaussian algorithm
+	# Generate some random numbers with gaussian algorithm
 	np.random.seed(1)
 	x = np.random.randint(100, size=50)
 
