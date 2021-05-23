@@ -11,7 +11,7 @@ f(n)
 \end{cases}
 $$
 
-		## Aufgabenteil b- Induktionsbeweis
+## Aufgabenteil b- Induktionsbeweis
 
 **Induktionsanfang:** 
 $$
