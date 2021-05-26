@@ -23,18 +23,23 @@ f(n) \in n \cdot log(n)
 $$
 **Induktionsbehauptung:**
 $$
-n \cdot log(n) \le n \cdot log(n) + 1
+f(n) \le n \cdot log(n) + 1
 $$
 **Induktionsschluss:**
 $$
-\frac{n \cdot log(n)}{n \cdot log(n)} = 1
+f(n  1) \le (n + 1) \cdot \log(n + 1) + 1
 $$
 
 $$
-1 = 1
+f ( n + 1 ) = 3 \cdot \biggl(\frac{n + 1}{3} \biggr)
 $$
 
 $$
-q.e.d.
+= 3 \cdot \biggl(\frac{n + 1}{3} \cdot \log\biggl(\frac{n + 1}{3}\biggr) + 1\biggr)
+$$
+
+$$
+(n + 1) \cdot \log(n + 1) - (n + 1) \cdot \log(3) + 3
+\le (n + 1) \cdot \log( n + 1)
 $$
 

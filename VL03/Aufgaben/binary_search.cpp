@@ -44,7 +44,7 @@ int main()
 {
 
 	// ===== Set up memory and data ==========================================================
-	constexpr int arrlen = 2000000000;
+	const int arrlen = 2000000000;
 	std::chrono::time_point<std::chrono::steady_clock>start, end;
 	
 	int* arr = new int[arrlen];
@@ -58,7 +58,7 @@ int main()
 
 
 	// ===== Calculation iterative ===========================================================
-	std::cout << "Rekursiv, 1 000 000 000 Elemente, gesucht ist Element " << x << std::endl;
+	std::cout << "Rekursiv, " << arrlen << " Elemente, gesucht ist Element " << x << std::endl;
 	start = std::chrono::steady_clock::now();
 
 	std::cout << "Position: " << binarySearchRek(arr, 0, arrlen - 1, x) << std::endl;
@@ -71,7 +71,7 @@ int main()
 
 
 	// ===== Calculation recursiv ============================================================
-	std::cout << "Iterativ, 1 000 000 000 Elemente, gesucht ist Element " << x << std::endl;
+	std::cout << "Iterativ, " << arrlen << " Elemente, gesucht ist Element " << x << std::endl;
 	start = std::chrono::steady_clock::now();
 
 	std::cout << "Position: " << binarySearchIt(arr, 0, arrlen - 1, x) << std::endl;
@@ -86,5 +86,6 @@ int main()
 	// ===== Clean up Memory =================================================================
 	delete(arr);
 
+	system("pause");
 	return 0;
 }

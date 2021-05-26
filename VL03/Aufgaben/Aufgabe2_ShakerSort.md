@@ -14,11 +14,11 @@ Der Unterschied zu Bubble- Sort ist, dass Bubblesort immer das größere Element
 
 Worst Case ist eine Invers- Sortierte Liste. Dabei müssen n Elemente jeweils die Liste durchlaufen, wobei sich die Länge der Liste jeden Durchlauf um 1 verkürzt.
 
-Die Laufzeit beträgt also n!
+Die Laufzeit beträgt also n^2.
 
 ## Aufgabenteil c- Stabilität
 
-Ja. SOllten zwei gleiche Zahlen aufeinander treffen, wird die hintere der beiden weiter rotiert. Dadurch wird trotzdem der jeweilige Zahlenwert einsortiert.
+Ja. Sollten zwei gleiche Zahlen aufeinander treffen, wird die hintere der beiden weiter rotiert. Dadurch wird trotzdem der jeweilige Zahlenwert einsortiert.
 
 ## Aufgabenteil d- inplace
 
