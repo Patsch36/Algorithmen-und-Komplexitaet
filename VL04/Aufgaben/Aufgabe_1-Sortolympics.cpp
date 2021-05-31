@@ -21,11 +21,23 @@ int main( int argc, char **argv )
         start = clock();
         sorter->insertionSort();
         stop = clock();
-    } else{
+    } else if (op == "merge"){
+        start = clock();
+        sorter->mergeSort();
+        stop = clock();
+    } else if (op == "heap"){
+        start = clock();
+        sorter->heapSort();
+        stop = clock();
+    } else if (op == "quick"){
+        start = clock();
+        sorter->quickSort();
+        stop = clock();
+    }else{
         std::cerr << "No valid operation" << std::endl;
     }
 
-    std::cout << "used time: " << (float) (stop - start) / CLOCKS_PER_SEC << "seconds" << std::endl;
+    std::cout << "used time: " << (float) (stop - start) / CLOCKS_PER_SEC << " seconds" << std::endl;
 
     //sorter->printData();
     sorter->uploadData(argv[3]);
