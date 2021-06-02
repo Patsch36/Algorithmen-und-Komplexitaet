@@ -15,4 +15,13 @@ Zu jedem Skript gibt es ein "Aufgaben.md" Dokument, welches zu jeder Datei/ Skri
 - Vorlesung 2:
 
     - In Aufgabe 3 werden alle Numerischen Rechenschritte automatisch ausgeführt. Einzig der ungefähre Schnittpunkt musste aus den automatisch generierten Diagrammen abgeschätzt werden und in das Programm eingetragen werden (siehe die Aufrufe der Funktion fsolve)
-    - 
+    
+- Vorlesung 4:
+
+    - Manche Compiler bauen eine nicht mit Windows kompatible exe. Das kompilieren via gcc sollte funktionieren.
+
+        ````powershell
+        g++ -o Sortolympics sort.h sort.cpp Aufgabe_1-Sortolympics.cpp
+        ````
+
+        

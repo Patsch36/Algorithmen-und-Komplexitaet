@@ -148,6 +148,7 @@ cython_debug/
 **/.idea/modules.xml
 **/.idea/other.xml
 **/.idea/vcs.xml
+**/.idea/workspace.xml
 **/Aufgaben/.idea/.gitignore
 **/Aufgaben/.idea/Aufgaben.iml
 **/Aufgaben/.idea/inspectionProfiles/Project_Default.xml
